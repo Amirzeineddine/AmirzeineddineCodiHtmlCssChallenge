@@ -1,0 +1,178 @@
+
+.body1 {
+    background-color: rgb(33,43,45);
+}
+
+
+
+
+.profile {
+    background-image:url("https://static.vecteezy.com/system/resources/previews/002/949/141/non_2x/programming-code-coding-or-hacker-background-vector.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    
+}
+.intro {
+    background-image:url(image/programming-wallpaper-1680x1050.jpg);
+    background-size: cover;
+    width: 75%;
+    height: 300px;
+    position: relative;
+    margin-top: 1.5%;
+    margin: auto;
+    
+}
+.intro .intro-text h1  {
+    position: absolute;
+    color: rgb(150,168,174);
+    left: 10%;
+    top: 12%;
+    font-size: 250%;
+    
+}
+.intro .intro-text p  {
+    position: absolute;
+    color: rgb(150,168,174);
+    left: 10%;
+    top: 30%;
+    font-size: 150%;
+    
+    
+}
+.nav-bar {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    background: rgb(51,61,63);
+    transform: translate(-50%, -50%);
+    display: flex;
+    height: 32px;
+    padding: 15px;
+    
+    
+
+    
+}
+.nav-bar .nav-li  {
+    list-style: none;
+    width: 149px;
+    text-align: center;
+    margin-top: 0 ;
+    border-right:  solid 2px rgb(150,168,174);
+    text-decoration: none;
+    font-size: 140%;
+    display: block;
+    color: rgb(150,168,174);
+    
+    
+}
+.nav-bar .nav-li:last-child  {
+    border-right: none;
+}
+
+.nav-bar .intro-text a {
+    display: block;
+    text-decoration: none;
+
+
+    
+    
+
+}
+.main {
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    font-size: 120%;
+    display: block;
+    color: rgb(150,168,174);
+    
+}
+.menu-item a {
+    color: rgb(150,168,174);
+   
+}
+.block {
+    display:block;
+    position:absolute;
+    width: 210px;
+    left: 14%;
+    top: 70%;
+    font-size: 120%;
+    color: rgb(150,168,174);
+}
+.gallery {
+    display: block;
+    position: absolute;
+    width: 600px;
+    font-size: 120%;
+    left: 35%;
+    top: 38%;
+    color: rgb(150,168,174);
+}
+.sub {
+    display: block;
+    position: absolute;
+    width: 300px;
+    font-size: 120%;
+    top: 70%;
+    left: 35%;
+    border-right: solid 1px rgb(150,168,174);
+    padding: 10px;
+    color: rgb(150,168,174);
+}
+.other {
+    display: block;
+    position: absolute;
+    width: 300px;
+    font-size: 120%;
+    left: 62%;
+    top:70%;
+    color: rgb(150,168,174);
+    
+    
+
+}
+.read-buttom {
+    width: 35%;
+    padding: 0.75rem;
+    background: rgb(93, 99, 100);
+    color: rgb(125, 137, 141);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  footer {
+      position: absolute;
+      top: 110%;
+      left: 14%;
+      color: rgb(150,168,174);
+  }
+  .text-input {
+    display: block;
+    width: 90%;
+    padding: 0.25rem 0.75;
+    background-color: rgb(150,168,174);
+    border: 1px solid rgb(83, 91, 93);
+    border-radius: 0.25rem;
+    
+  }
+  .copyright {
+      position: absolute;
+      top: 140%;
+      width: 800px;
+      left: 20%;
+      text-align: center;
+      color:rgb(150,168,174) ;
+      
+  }
+.submit-buttom {
+    width: 35%;
+    padding: 0.45rem;
+    background: rgb(93, 99, 100);
+    color: rgb(125, 137, 141);
+    border-radius: 2px;
+    cursor: pointer;
+
+}
